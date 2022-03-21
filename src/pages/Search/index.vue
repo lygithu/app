@@ -1,21 +1,21 @@
 <template>
     <div>
-        
     </div>
 </template>
 
 <script>
 export default {
     name: 'Search',
-
+    props:['a'],
     data() {
         return {
             
         };
     },
-
+    created() {
+    },
     mounted() {
-        
+        console.log(this.a)
     },
 
     methods: {
@@ -24,6 +24,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 
 </style>

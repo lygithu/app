@@ -52,12 +52,12 @@ export default {
   },
 
   mounted() {
-  
+      
   },
 
   methods: {
     goSearch(){
-        this.$router.push('/search')
+        this.$router.push({name:"search",params:{a:1}})
     }
   }
 };
